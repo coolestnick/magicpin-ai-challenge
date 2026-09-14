@@ -1,0 +1,15 @@
+# Regenerable — `python dataset/generate_dataset.py --seed-dir dataset --out expanded`
+expanded/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# env files with secrets
+.env
+*.env.local
+
+# OS
+.DS_Store
